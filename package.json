@@ -1,0 +1,27 @@
+{
+  "name": "gitrc",
+  "version": "1.0.0",
+  "description": "Create different git profiles and switch between them",
+  "main": "index.js",
+  "bin": {
+    "gitrc": "./bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thatjessicakelly/gitrc.git"
+  },
+  "author": "Jessica Kelly <thatjessicakelly@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thatjessicakelly/gitrc/issues"
+  },
+  "homepage": "https://github.com/thatjessicakelly/gitrc",
+  "dependencies": {
+    "meow": "^3.7.0",
+    "path-exists": "^2.1.0",
+    "user-home": "^2.0.0"
+  }
+}
